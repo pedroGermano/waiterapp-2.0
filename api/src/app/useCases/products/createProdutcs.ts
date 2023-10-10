@@ -5,6 +5,8 @@ import { Request, Response } from 'express';
 export async function createProducts(req: Request, res: Response) {
   try {
 
+    //s
+
   } catch (error) {
     console.log(error);
     res.sendStatus(500);
